@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+        
+<!-- http://mybatis.github.io/mybatis-3/ko/configuration.html#settings  -->        
+<configuration> 
+    <settings>   
+        <setting name="cacheEnabled" value="true"/>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="multipleResultSetsEnabled" value="true"/>
+        <setting name="useColumnLabel" value="true"/>
+        <setting name="useGeneratedKeys" value="false"/>
+        <setting name="autoMappingBehavior" value="PARTIAL"/>
+        <setting name="defaultExecutorType" value="SIMPLE"/>
+        <setting name="defaultStatementTimeout" value="25"/>
+        <setting name="safeRowBoundsEnabled" value="false"/>
+        <setting name="mapUnderscoreToCamelCase" value="false"/>
+        <setting name="localCacheScope" value="SESSION"/>
+        <setting name="jdbcTypeForNull" value="OTHER"/>
+        <setting name="lazyLoadTriggerMethods" value="equals,clone,hashCode,toString"/>
+    </settings>
+
+    <typeAliases>
+        <typeAlias type="com.lecture.spring.model.ModelBoard"      alias="ModelBoard"      />
+        <typeAlias type="com.lecture.spring.model.ModelAttachFile" alias="ModelAttachFile" />
+        <typeAlias type="com.lecture.spring.model.ModelComment"    alias="ModelComment"    />
+        <typeAlias type="com.lecture.spring.model.ModelArticle"    alias="ModelArticle"    />        
+    </typeAliases>
+    
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC">
+            </transactionManager>
+            
+            <dataSource type="POOLED">
+                <!-- <property name="driverClass" value="net.sf.log4jdbc.DriverSpy" /> -->
+                
+                <property name="driver"      value="com.mysql.jdbc.Driver" />
+                <property name="url"         value="jdbc:mysql://localhost:3306/springboard" />
+                <property name="username"    value="user01" />
+                <property name="password"    value="user01" />
+                
+                <!-- <property name="driver"      value="${jdbc.driver}" />      -->
+                <!-- <property name="url"         value="${jdbc.url}" />         -->
+                <!-- <property name="username"    value="${jdbc.username}" />    -->
+                <!-- <property name="password"    value="${jdbc.password}" />    -->
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper resource="com/lecture/spring/mybatis/MapperBoard.xml" />
+    </mappers>
+    
+</configuration>
