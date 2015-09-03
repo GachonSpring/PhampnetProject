@@ -72,13 +72,13 @@ text-align: right;
 .myPamThumbnail{
 position: absolute;
 width: auto;
-margin-left: 20px;
+left: 190px;
 }
 
 .myPamComment{
 position: absolute;
 width: auto;
-margin-left: 320px;
+left: 500px;
 margin-top: -20px;
 }
 
@@ -106,7 +106,7 @@ font-family: 'Colonna MT';
 }
 
 .myPamToImg{
-margin-right: 20px;
+margin-right: 10px;
 }
 
 .myPamtoFacebook{
