@@ -72,13 +72,13 @@ text-align: right;
 .myPamThumbnail{
 position: absolute;
 width: auto;
-left: 190px;
+margin-left:10px;
 }
 
 .myPamComment{
 position: absolute;
 width: auto;
-left: 500px;
+margin-left: 250px;
 margin-top: -20px;
 }
 
@@ -146,7 +146,6 @@ margin-right: 10px;
 
 
 <div class="myPams">
-
 <span class="myPamThumbnail">
 <img src="<spring:url value="/resources/images/myPamSample.png"/>"/>
 </span>

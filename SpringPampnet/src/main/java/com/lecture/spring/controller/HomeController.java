@@ -35,7 +35,10 @@ public class HomeController {
 		
 		return "main";
 	}
-	
+	@RequestMapping(value = "/make", method = RequestMethod.GET)
+	public String make(Locale locale, Model model) {
+		return "makePam";
+	}
 	
 	@RequestMapping(value = "/my", method = RequestMethod.GET)
 	public String my(Locale locale, Model model) {
