@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
 #Mon Sep 07 12:44:48 KST 2015
 org.eclipse.jdt.core.compiler.debug.localVariable=generate
@@ -12,6 +13,21 @@ eclipse.preferences.version=1
 org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.source=1.8
 org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+=======
+#
+#Thu Sep 03 21:39:20 GMT+09:00 2015
+org.eclipse.jdt.core.compiler.debug.localVariable=generate
+org.eclipse.jdt.core.compiler.compliance=1.8
+org.eclipse.jdt.core.compiler.codegen.unusedLocal=preserve
+org.eclipse.jdt.core.compiler.debug.sourceFile=generate
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.debug.lineNumber=generate
+eclipse.preferences.version=1
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.source=1.8
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+>>>>>>> cd4decfeded6757755b4f2d27234a2abbe0e4c14
 =======
 #
 #Thu Sep 03 21:39:20 GMT+09:00 2015

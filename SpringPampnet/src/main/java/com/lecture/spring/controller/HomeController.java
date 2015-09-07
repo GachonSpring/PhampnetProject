@@ -45,6 +45,9 @@ public class HomeController {
 	public String make(Locale locale, Model model) {
 		return "makePam";
 	}
+<<<<<<< HEAD
+>>>>>>> cd4decfeded6757755b4f2d27234a2abbe0e4c14
+=======
 >>>>>>> cd4decfeded6757755b4f2d27234a2abbe0e4c14
 	
 	@RequestMapping(value = "/my", method = RequestMethod.GET)
