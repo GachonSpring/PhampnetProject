@@ -1,0 +1,142 @@
+@CHARSET "UTF-8";
+
+html, body{
+    width:100%;
+    height:100%;
+    padding: 0;
+    margin: 0;
+}
+
+.debug { border: 1px solid red; }
+
+
+#introduce_wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#introduce_one{
+    position:relative;
+    padding-top:10%;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: xx-large;
+       background-color: #e4e4e4;
+}
+
+#join{
+ font-size: medium;
+}
+
+#join span{
+    color: red;
+}
+
+#introduce_two{
+    position:relative;
+     width: 100%;
+    height: 50%;
+        font-size: xx-large;
+    
+}
+
+#two_about{
+    position:absolute;
+    width: 45%;
+    height: 100%;
+    left:5%;
+    text-align: center;
+   
+
+}
+
+#two_about_content{
+    font-size: large;
+   text-align:left;
+    padding-left: 10%;
+     height: 70%;
+    width: 70%;
+  
+}
+
+
+#two_mission{
+    position:absolute;
+    width: 45%;
+    height: 100%;
+    right:5%;
+        text-align: center;
+}
+
+#two_mission_content{
+         font-size: large;
+text-align:left;
+         padding-left: 10%;
+             height: 70%;
+    width: 70%;
+}
+
+
+
+#introduce_three{
+       position:relative;
+     width: 100%;
+    height: 50%;
+    text-align: center;
+    background-color: #e4e4e4;
+}
+
+.team{
+    font-size: xx-large;
+    height: 15%;
+    
+}
+
+
+#member1{
+    position: absolute;
+    width: 20%;
+    height: 85%;
+    left: 10%;
+    
+}
+
+#member2{
+      position: absolute;
+          width: 20%;
+    height: 85%;
+    left: 40%;
+
+}
+
+#member3{
+      position: absolute;
+        width: 20%;
+    height: 85%;
+  right: 10%;
+}
+
+#member_photo{
+ 
+    width:100%;
+    height:60%;
+}
+
+#member_profile{
+ 
+     width:100%;
+      height:40%;
+}
+
+.name{
+    font-size: x-large;
+    font-style: italic;
+}
+
+.job{
+    font-size: large;
+    font-style: italic;
+    color: #c0c0c0;
+}}

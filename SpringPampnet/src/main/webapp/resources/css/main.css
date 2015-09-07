@@ -7,6 +7,179 @@ html, body{
     margin: 0;
 }
 
+<<<<<<< HEAD
+.debug { border: 1px solid red; }
+
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#header{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+#footer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+#main_rank_wrapper{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    background-color: #494949;
+    color: white;
+}
+
+#main_rank_wrapper  #rank_title
+{
+   font-size:xx-large;
+    font-style: italic;
+}
+
+#rank_left_move{
+    position:absolute;
+    width: 5%;
+    height: 15%;
+    top:50%;
+    left:5%;
+}
+
+#rank_right_move{
+    position:absolute;
+     width: 5%;
+    height: 15%;
+    top: 50%;
+    right: 5%;
+}
+
+#main_rank{
+    position:relative;
+    width: 100%;
+    height: 90%;
+
+}
+
+#main_rank_image{
+    position:absolute;
+    width: 30%;
+    height: 80%;
+    top: 10%;
+    left: 15%;
+    background-color: white;
+}
+
+#main_rank_info{
+     position:absolute;
+    width: 30%;
+    height: 80%;
+    top: 10%;
+    right: 15%;
+    font-style: italic;
+}
+
+#rank_info_title{
+    font-size: x-large;
+}
+
+#rank_info_maker{
+    font-size: large;
+    text-align: right;
+}
+
+#rank_info_grade_wrapper{
+    width: 100%;
+    height: 50%;
+    left: 20%;
+    top:20%;
+}
+
+#rank_info_grade_wrapper ul{
+    list-style: none;
+    display: inline;
+    width: 100%;
+    height: 100%;
+}
+
+#rank_info_grade_wrapper li{
+    margin-left: 8%;
+    width:25%;
+    height:50%;
+    float: left;
+}
+
+#rank_info_grade_wrapper div{
+    width: 100%;
+    height: 100%;
+}
+
+#main_content_wrapper{
+     position: relative;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    background-color: #e8e8e8;
+}
+
+#main_content_wrapper table{
+    position: relative;
+    margin : 5% 5% 5% 5%;
+    width: 90%;
+    height: 70%;
+}
+
+
+#main_content_wrapper #content{
+    position:relative;
+    width: 50%;
+    height: 100%;
+}
+
+#content div{
+    position: absolute;
+    font-style: italic;
+}
+
+#content_image{
+       
+    width: 100%;
+    height: 70%;
+    background-color: white;
+}
+
+#content_title{
+    width: 20%;
+    height: 14%;
+    top: 73%;
+    font-size: large;
+    
+    
+    
+}
+
+#content_grade{
+    
+    width: 20%;
+    height: 14%;
+    top: 73%;
+    right: 13%;
+    
+}
+
+#content_day{
+     width: auto;
+    height: 10%;
+    top: 90%;
+    font-size: medium;
+    
+=======
 #header_wrapper{
     position : relative;
     padding : 0px 20px 0px 20px;
@@ -159,11 +332,17 @@ html, body{
       background-color: #000000;
       width: 70px;
       height: 70px;
+>>>>>>> cd4decfeded6757755b4f2d27234a2abbe0e4c14
     
 }
 
 
 
+<<<<<<< HEAD
+
+
+
+=======
 #middle_wrapper #rightMove{
         position: absolute;
     
@@ -188,4 +367,5 @@ html, body{
 #content_wrapper a{
     background-image: url('../images/logo.png');
 }
+>>>>>>> cd4decfeded6757755b4f2d27234a2abbe0e4c14
 

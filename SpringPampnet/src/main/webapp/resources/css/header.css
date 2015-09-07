@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+html, body{
+    width:100%;
+    height:100%;
+    padding: 0;
+    margin: 0;
+}
+
+.debug { border: 1px solid red; }
+
+#header_wrapper{
+    position: relative;
+    width: 100%;
+    height: 25%;
+
+}
+
+#logo{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+   
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;;
+}
+
+#account {
+    margin-top:2%;
+    width:15%;
+    float: right;
+}
+
+#signin{
+    margin-top:7%;
+    float: left;
+    height: auto;
+    width: auto;
+}
+
+#user{
+    float: left;
+     height: auto;
+    width: auto;
+    
+}
+
+#header_menu_nav{
+   position:absolute;
+   width: 70%;
+   height: 20%;;
+   top:80%;
+   left: 40%;
+   font-style: italic;
+   color: #c0c0c0;
+   
+   
+}
+
+#header_menu_nav ul{
+    list-style: none;
+    display: inline;
+}
+
+#header_menu_nav li{
+    float: left;
+    margin-left: 6%;
+    font-size: large;
+}

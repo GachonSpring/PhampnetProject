@@ -1,0 +1,234 @@
+@CHARSET "UTF-8";
+
+
+html, body{
+    width:100%;
+    height:100%;
+    padding: 0;
+    margin: 0;
+}
+
+.debug { border: 1px solid red; }
+
+#detail_wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+#detail_content{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    
+}
+
+
+
+#detail_title{
+    font-size: xx-large;
+    font-style: italic;
+    margin-top:3%;
+    margin-left: 2%;
+     color: #585858;
+}
+
+#detail_image_wrapper{
+    position:absolute;
+    width: 30%;
+    height: 60%;
+    margin-left: 10%; 
+   
+}
+
+#detail_image{
+    width: 95%;
+    height:80%;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    
+}
+
+#detail_maker{
+    height: 10%;
+    width: 95%;
+      margin: 0 2.5% 0 2.5%;
+    text-align: right;
+      color: #585858;
+}
+
+#openURL_btn{
+    position: absolute;
+    width: 15%;
+    height: 10%;   
+    right: 20%;
+     top:20%;
+       color: #585858;
+    
+}
+
+#downloadImage_btn{
+        position: absolute;
+    width: 15%;
+    height: 10%;   
+    right: 20%;
+    top:35%;
+      color: #585858;
+}
+
+#detail_type{
+    position:absolute;
+     width: 30%;
+    height: 6%;
+    margin-left: 10%; 
+    top:80%;
+    text-align: left;
+   
+    
+    
+    
+}
+
+#bigType{
+    position: absolute;
+    width: 30%;
+    height:100%;
+    left: 30%;
+     color: #f3f3f3
+    
+}
+#typeClass
+{
+    position:absolute;
+    left: 10%;
+    top: 20%;
+    font-style: italic;
+     color: #f3f3f3
+}
+
+#detail_subject{
+    position:absolute;
+        width: 30%;
+    height: 6%;
+    margin-left: 10%; 
+      top:88%;
+        text-align: left;
+   
+}
+
+#smallType{
+        position: absolute;
+    width: 30%;
+    height:100%;
+    left: 30%;
+}
+
+#detail_similar{
+    position:relative;
+     
+        width: 100%;
+        height: 40%;;
+        background-color: #494949;
+}
+
+#similar_title{
+    position:absolute;
+   font-size:x-large;
+    font-style: italic;
+    color: white;
+    left: 5%;
+    width: 30%;
+    
+    
+}
+
+#detail_similar table{
+        width: 80%;
+        height: 80%;
+        margin: 3% 10% 1% 10%;
+}
+#similar_image{
+    width: 90%;
+    height: 100%;
+    margin: 0 5% 0 5%;
+    background-color: white;
+}
+
+#detail_comment_enroll_wrapper{
+         position: relative;
+        width: 100%;
+        height: 20%;
+        background-color: #f3f3f3;
+}
+
+#comment_enroll{
+          position: absolute;
+          width: 70%;
+        height: 80%;
+        left: 10%;
+        top: 10%;
+        background-color: white;
+     
+}
+
+#comment_enroll_btn{
+        position: absolute;
+          width: 10%;
+        height: 80%;
+        left: 80%;
+         top: 10%;
+         background-color: #2693ff;
+  
+}
+
+#detail_comment_list{
+     position: relative;
+        width: 100%;
+        height: 50%;
+}
+
+#detail_comment_list table{
+      position: relative;
+        width: 80%;
+        height: 50%;
+        margin: 0 10% 0 10%;
+}
+
+#comment_user{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+
+#comment_user div{
+    position: absolute;
+}
+
+#commer_user_img{
+    width: 10%;
+    height: 70%;
+    top: 20%;
+    left: 5%;
+    
+}
+#commer_user_name{
+        width: 20%;
+            height: 20%;
+            left: 17%;
+}
+
+#commer_user_content{
+    width: 70%;
+            height: 45%;
+            left: 20%;
+            top:33%;
+}
+
+#commer_user_days{
+     width: 20%;
+       height: 10%;
+       left: 17%;
+       top:85%;
+} 
+
+#detail_comment_list td {
+    border-bottom: 1px solid #f3f3f3;
+}
