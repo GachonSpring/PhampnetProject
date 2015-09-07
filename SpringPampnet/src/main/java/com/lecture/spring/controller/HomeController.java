@@ -24,31 +24,12 @@ public class HomeController {
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
-<<<<<<< HEAD
-
 		return "otherPamDetail";
-	}
-	
-=======
-		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
-		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
-		
-		return "main";
 	}
 	@RequestMapping(value = "/make", method = RequestMethod.GET)
 	public String make(Locale locale, Model model) {
 		return "makePam";
 	}
-<<<<<<< HEAD
->>>>>>> cd4decfeded6757755b4f2d27234a2abbe0e4c14
-=======
->>>>>>> cd4decfeded6757755b4f2d27234a2abbe0e4c14
 	
 	@RequestMapping(value = "/my", method = RequestMethod.GET)
 	public String my(Locale locale, Model model) {
