@@ -1,68 +1,77 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<%@ page session="false" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+        <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+    <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <spring:url value="/resources/css/main.css" var="mainCss" />
-
-    <link href="${mainCss}" rel="stylesheet" />
-
-	<title>Home</title>
-    
+<link href="<c:url value="/resources/css/main.css" />" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
 </head>
 <body>
+        <div id="header">
 
-    <div id="main_wrapper">
-        <div id="header_wrapper">
-            <div id="logo">
-                <a class=d href="/"></a>
-            </div>
-            <div id="account">
-                <a href="/">account</a>
-            </div>
-           
-            <div id="menu">
-                <ul>
-                    <li><a href="/">Introduction</a></li>
-                    <li><a href="/">User Guide</a></li>
-                    <li><a href="/">Other user's</a></li>
-                    <li><a href="/">My pamphlet</a></li>
-                </ul>
-            </div>
-        
         </div>
-        
-        <div id="middle_wrapper">
-            <center><h2>Rank in the weekly</h2><center>
-            <div id="leftMove">
-            
-            </div>
-            <div id="rankImages">
-            </div>
-            <div id="imagesInfo">
-                <h3>title</h3>
-                <h4>made by who</h4>
-                <div id="gradeInfo">
-                <ul>
-                    <li>Design<br>
-                    <div id="designGrade"></div></li>
-                    <li>Content
-                     <div id="ContentGrade"></div></li>
-                    <li>Practicality
-                     <div id="PracticalityGrade"></div></li>
-                    
-                </ul>
+        <div id="main" class="debug">  
+                <div id="main_rank_wrapper" class="debug">
+                        <div id="rank_title" class="debug">Rank in the weekly</div>
+                        <div id="rank_left_move" class="debug">  <img class="debug" src="<spring:url value="/resources/images/leftArrow.png"/>"/></div>
+                        <div id="main_rank" class="debug">
+                                <div id="main_rank_image" class="debug"></div>
+                                <div id="main_rank_info" class="debug">
+                                        <div id="rank_info_title" class="debug">Title</div>
+                                        <div id="rank_info_maker" class="debug">made by who</div>
+                                        <div id="rank_info_grade_wrapper" class="debug">
+                                            <ul>
+                                                    <li>Design<div id="design_grade" class="debug"> <img class="debug" src="<spring:url value="/resources/images/gradeCircle.png"/>"/></div></li>
+                                                    <li>Content<div id="content_grade" class="debug"> <img class="debug" src="<spring:url value="/resources/images/gradeCircle.png"/>"/></div></li>
+                                                    <li>Practicality<div id="practicality_grade" class="debug"> <img class="debug" src="<spring:url value="/resources/images/gradeCircle.png"/>"/></div></li>                                     
+                                            </ul>
+                                   
+                                        </div>
+                                </div>                      
+                        </div>      
+                         <div id="rank_right_move" class="debug"> <img class="debug" src="<spring:url value="/resources/images/rightArrow.png"/>"/></div> 
                 </div>
-            </div>
-            <div id="rightMove">
-            </div>
-            
-        </div>
+                <div id="main_content_wrapper" class="debug">
+                        <table  class="debug">
+                                <tr>
+                                        <td>
+                                                <div id="content" class="debug">
+                                                        <div id="content_image" class="debug"></div>
+                                                        <div id="content_title" class="debug">Title</div>
+                                                        <div id="content_grade"  class="debug"><img class="debug" src="<spring:url value="/resources/images/commentBack.png"/>"/></div>
+                                                        <div id="content_day" class="debug">a days ago</div>                      
+                                               </div>
+                                        </td>
+                                        <td>
+                                        <div id="content" class="debug">
+                                                        <div id="content_image" class="debug"></div>
+                                                        <div id="content_title" class="debug">Title</div>
+                                                        <div id="content_grade"  class="debug"><img class="debug" src="<spring:url value="/resources/images/commentBack.png"/>"/></div>
+                                                        <div id="content_day" class="debug">a days ago</div>                      
+                                               </div>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>                        
+                                </tr>
+                                
+                        
+                        
+                        </table>
+                </div>
+                
+                
         
-        <div id="content_wrapper">
-            <a href="/"></a>
+        
+        
+        
         </div>
-         
-    </div>
+        <div id="footer">
+       
+        </div>
 </body>
 </html>

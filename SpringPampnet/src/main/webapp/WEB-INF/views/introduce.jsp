@@ -34,7 +34,7 @@
             </div>
             <div id="introduce_three" class="debug">
                     <center><span class="team" >Our Team</span></center>
-                    <div id="member1" class="debug">
+                    <div id="member1" class="member">
                             <div id="member_photo" class="debug"></div>
                             <div id="member_profile" class="debug">
                                     <span class="name">Park Hyojun</span>
@@ -43,7 +43,7 @@
                                     <span class="job">Engineer</span>
                            </div>
                     </div>
-                    <div id="member2" class="debug">
+                    <div id="member2" class="member">
                                 <div id="member_photo" class="debug"></div>
                             <div id="member_profile" class="debug">
                                            <span class="name">Park Hyojun</span>
@@ -52,7 +52,7 @@
                                     <span class="job">Engineer</span>
                             </div>
                     </div>
-                        <div id="member3" class="debug">
+                        <div id="member3" class="member">
                                 <div id="member_photo" class="debug"></div>
                             <div id="member_profile" class="debug"></div>
                         </div>

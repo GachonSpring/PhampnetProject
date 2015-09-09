@@ -8,7 +8,7 @@ html, body{
     margin: 0;
 }
 
-.debug { border: 1px solid red; }
+
 
 #detail_wrapper{
     height: 100%;
@@ -19,15 +19,13 @@ html, body{
     position: relative;
     width: 100%;
     height: 90%;
+    background-color: #f2f2f2
     
 }
-
-
 
 #detail_title{
     font-size: xx-large;
     font-style: italic;
-    margin-top:3%;
     margin-left: 2%;
      color: #585858;
 }
@@ -37,22 +35,25 @@ html, body{
     width: 30%;
     height: 60%;
     margin-left: 10%; 
+    background-color: white;
    
 }
 
 #detail_image{
     width: 95%;
-    height:80%;
+    height:90%;
     margin: 2.5% 2.5% 2.5% 2.5%;
+       background-color: black;
     
 }
 
 #detail_maker{
-    height: 10%;
+    height: 5%;
     width: 95%;
       margin: 0 2.5% 0 2.5%;
     text-align: right;
       color: #585858;
+      font-size: small;
 }
 
 #openURL_btn{
@@ -62,6 +63,9 @@ html, body{
     right: 20%;
      top:20%;
        color: #585858;
+       text-align: center;
+       font-size: x-large;
+       border: 1px solid #494949;
     
 }
 
@@ -72,6 +76,9 @@ html, body{
     right: 20%;
     top:35%;
       color: #585858;
+      text-align: center;
+    font-size: x-large;
+    border: 1px solid #494949;
 }
 
 #detail_type{
@@ -81,17 +88,16 @@ html, body{
     margin-left: 10%; 
     top:80%;
     text-align: left;
-   
-    
-    
-    
+    background-color: white;
+
 }
 
 #bigType{
     position: absolute;
     width: 30%;
-    height:100%;
-    left: 30%;
+    height:80%;
+    top:10%;
+    left: 40%;
      color: #f3f3f3
     
 }
@@ -101,7 +107,9 @@ html, body{
     left: 10%;
     top: 20%;
     font-style: italic;
-     color: #f3f3f3
+    color: #585858;
+    font-size: small;
+    
 }
 
 #detail_subject{
@@ -111,14 +119,16 @@ html, body{
     margin-left: 10%; 
       top:88%;
         text-align: left;
+        background-color: white;
    
 }
 
 #smallType{
         position: absolute;
     width: 30%;
-    height:100%;
-    left: 30%;
+    height:80%;
+    top:10%;
+    left: 40%;
 }
 
 #detail_similar{
@@ -130,20 +140,20 @@ html, body{
 }
 
 #similar_title{
-    position:absolute;
    font-size:x-large;
     font-style: italic;
     color: white;
-    left: 5%;
+    padding-left:5%;
     width: 30%;
     
     
 }
 
 #detail_similar table{
+ 
         width: 80%;
         height: 80%;
-        margin: 3% 10% 1% 10%;
+        margin: 1% 10% 1% 10%;
 }
 #similar_image{
     width: 90%;
@@ -183,12 +193,14 @@ html, body{
      position: relative;
         width: 100%;
         height: 50%;
+ 
 }
 
 #detail_comment_list table{
       position: relative;
         width: 80%;
         height: 50%;
+        top:5%;
         margin: 0 10% 0 10%;
 }
 
@@ -200,6 +212,8 @@ html, body{
 
 #comment_user div{
     position: absolute;
+    font-style: italic;
+    font
 }
 
 #commer_user_img{
@@ -207,12 +221,14 @@ html, body{
     height: 70%;
     top: 20%;
     left: 5%;
+    background-color: #494949;
     
 }
 #commer_user_name{
         width: 20%;
             height: 20%;
             left: 17%;
+            font-size: x-large;
 }
 
 #commer_user_content{
@@ -220,6 +236,7 @@ html, body{
             height: 45%;
             left: 20%;
             top:33%;
+            font-size: medium;
 }
 
 #commer_user_days{
@@ -227,6 +244,7 @@ html, body{
        height: 10%;
        left: 17%;
        top:85%;
+       font-size: small;
 } 
 
 #detail_comment_list td {

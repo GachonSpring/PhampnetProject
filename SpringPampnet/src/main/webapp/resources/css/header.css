@@ -7,8 +7,6 @@ html, body{
     margin: 0;
 }
 
-.debug { border: 1px solid red; }
-
 #header_wrapper{
     position: relative;
     width: 100%;
@@ -30,8 +28,14 @@ html, body{
 
 #account {
     margin-top:2%;
-    width:15%;
+    width:auto;
     float: right;
+}
+
+#account img{
+    height: 60%;
+    width: 60%;
+    
 }
 
 #signin{
@@ -53,7 +57,7 @@ html, body{
    width: 70%;
    height: 20%;;
    top:80%;
-   left: 40%;
+   left: 30%;
    font-style: italic;
    color: #c0c0c0;
    
@@ -68,5 +72,5 @@ html, body{
 #header_menu_nav li{
     float: left;
     margin-left: 6%;
-    font-size: large;
+    font-size: x-large;
 }

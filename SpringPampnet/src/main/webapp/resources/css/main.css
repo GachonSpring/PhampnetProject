@@ -7,9 +7,6 @@ html, body{
     margin: 0;
 }
 
-<<<<<<< HEAD
-.debug { border: 1px solid red; }
-
 #main{
     position: relative;
     width: 100%;
@@ -46,16 +43,16 @@ html, body{
 
 #rank_left_move{
     position:absolute;
-    width: 5%;
-    height: 15%;
+    width: auto;
+    height: auto;
     top:50%;
     left:5%;
 }
 
 #rank_right_move{
     position:absolute;
-     width: 5%;
-    height: 15%;
+width: auto;
+    height: auto;
     top: 50%;
     right: 5%;
 }
@@ -79,8 +76,8 @@ html, body{
 #main_rank_info{
      position:absolute;
     width: 30%;
-    height: 80%;
-    top: 10%;
+    height: 60%;
+    top: 20%;
     right: 15%;
     font-style: italic;
 }
@@ -95,10 +92,10 @@ html, body{
 }
 
 #rank_info_grade_wrapper{
+    position:absolute;
     width: 100%;
     height: 50%;
-    left: 20%;
-    top:20%;
+    top:30%;
 }
 
 #rank_info_grade_wrapper ul{
@@ -116,12 +113,12 @@ html, body{
 }
 
 #rank_info_grade_wrapper div{
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
 }
 
 #main_content_wrapper{
-     position: relative;
+    position:relative;
     width: 100%;
     height: 70%;
     text-align: center;
@@ -130,16 +127,18 @@ html, body{
 
 #main_content_wrapper table{
     position: relative;
-    margin : 5% 5% 5% 5%;
     width: 90%;
     height: 70%;
+    margin: auto;
+    top: 5%;
 }
 
 
 #main_content_wrapper #content{
     position:relative;
-    width: 50%;
+    width: 85%;
     height: 100%;
+    padding: 5% 5% 5% 5% ;
 }
 
 #content div{
@@ -149,15 +148,15 @@ html, body{
 
 #content_image{
        
-    width: 100%;
-    height: 70%;
+    width: 90%;
+    height: 65%;
     background-color: white;
 }
 
 #content_title{
-    width: 20%;
-    height: 14%;
-    top: 73%;
+    width: auto;
+    height: auto;
+    top: 70%;
     font-size: large;
     
     
@@ -166,206 +165,25 @@ html, body{
 
 #content_grade{
     
-    width: 20%;
-    height: 14%;
-    top: 73%;
-    right: 13%;
+    width: auto;
+    height: auto;
+    top: 70%;
+    right: 5%;
     
 }
 
 #content_day{
      width: auto;
-    height: 10%;
-    top: 90%;
+    height: auto;
+    top: 80%;
     font-size: medium;
     
-=======
-#header_wrapper{
-    position : relative;
-    padding : 0px 20px 0px 20px;
-    border: 1px solid black;
-    width : 100%;
-    height : 200px;
-}
-
-#header_wrapper #logo{
-    position : absolute;
-       border: 1px solid black;
- 
-    width:120px;
-    height:120px;
-    top:20px;
-    left:20px;
-}
-
-#header_wrapper #logo a{
-    background-image: url(/SpringPampnet/src/main/webapp/WEB-INF/views/resources/images/top.jsp);
-    width:120px;
-    height:120px;
-}
-
-
-#header_wrapper #account{
-      position : absolute;
-     background-color: #555;
-     width:120px;
-    height:60px;
-    left: 1400px;
-    
-    
-}
-
-#header_wrapper #menu{
-     position : relative;
-     background-color: #ff0;
-      border: 1px solid black;
-        width:500px;
-    height:100px;
-     top:150px;
-     left:1000px;
-      text-align:center;
-   
-}
-
-#header_wrapper #menu ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-}
-
-#header_wrapper #menu ul li{
-    float : left;
-    margin-left: 20px;
-    display: inline;
-    
-}
-
-#middle_wrapper{
-    position : relative;;
-    padding : 30px 100px 30px 100px;
-    background-color : #4b4b4b;
-    width : 100%;
-    height : 400px;
-}
-
-#middle_wrapper h2{
-    color: #ffffff;
-    font-style: italic;
-    float: center;
-}
-
-#middle_wrapper #leftMove{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background-color: #c0c0c0;
-    margin-top: 110px;
-   
-    
-    
-}
-
-#middle_wrapper #rankImages{
-        position: absolute;
-        width: 400px;
-        height: 300px;
-        background-color: #ffffff;
-        left:300px;
-    
-}
-
-#middle_wrapper #imagesInfo{
-        position: absolute;
-                width: 400px;
-        height: 300px;
-        background-color: #c0c0c0;
-        left:750px;
-        
-}
-
-
-
-#middle_wrapper #imagesInfo h3{
-  text-align: center;
-   color: #ffffff;
-    font-style: italic;
-        border: 1px solid black;
-}
-
-#middle_wrapper #imagesInfo h4{
-  text-align: right;
-  margin-right: 20px;
-   color: #ffffff;
-    font-style: italic;
-        border: 1px solid black;
-}
-
-#imagesInfo #gradeInfo{
-     position:relative;
-    width:300px;
-    height:100px;
-    text-align:center;
-    border: 1px solid black;
-    top:30px;
-    
-}
-
-#middle_wrapper #imagesInfo ul{
-      list-style: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-        
-}
-
-#middle_wrapper #imagesInfo li{
-    
-        float : left;
-    margin-left: 20px;
-     display: inline;
-  
-    
-}
-
-#middle_wrapper #imagesInfo li div{
-      background-color: #000000;
-      width: 70px;
-      height: 70px;
->>>>>>> cd4decfeded6757755b4f2d27234a2abbe0e4c14
     
 }
 
 
 
-<<<<<<< HEAD
 
 
 
-=======
-#middle_wrapper #rightMove{
-        position: absolute;
-    
-     width: 50px;
-    height: 50px;
-    background-color: #c0c0c0;
-    left:1300px;
-     margin-top: 110px;
-    
-    
-}
-
-
-#content_wrapper{
-    position : relative;;
-    padding : 30px 100px 30px 100px;
-    background-color : #e6e6e6;
-    width : 100%;
-    height : 400px;
-}
-
-#content_wrapper a{
-    background-image: url('../images/logo.png');
-}
->>>>>>> cd4decfeded6757755b4f2d27234a2abbe0e4c14
 

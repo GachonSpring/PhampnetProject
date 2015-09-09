@@ -48,8 +48,6 @@
                 <div id="copyright"  class="debug">
                     Made by Software  &  2015 Pamph.net
                 </div> 
-        
-      
         </div>
 
 </body>

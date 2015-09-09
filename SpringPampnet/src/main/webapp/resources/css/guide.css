@@ -1,4 +1,5 @@
 @CHARSET "UTF-8";
+
 html, body{
     width:100%;
     height:100%;
@@ -6,7 +7,6 @@ html, body{
     margin: 0;
 }
 
-.debug { border: 1px solid red; }
 
 #guide{
     position: relative;
@@ -25,16 +25,16 @@ html, body{
 #guide_left_move{
     top: 50%;
     left:5%;
-    width: 6%;
-    height: 15%;
+    width: auto;
+    height: auto;;
 }
 
 
 #guide_right_move{
     top: 50%;
     right:5%;
-    width: 6%;
-    height: 15%;
+ width: auto;
+    height: auto;;
 
 }
 

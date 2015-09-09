@@ -35,4 +35,29 @@ public class HomeController {
 	public String my(Locale locale, Model model) {
 		return "myPam";
 	}
+	
+	   @RequestMapping(value = "/footer", method = RequestMethod.GET)
+	    public String footer(Locale locale, Model model) {
+	        return "footer";
+	    }
+	   
+	   @RequestMapping(value = "/guide", method = RequestMethod.GET)
+       public String guide(Locale locale, Model model) {
+           return "guide";
+       }
+	   
+	   @RequestMapping(value = "/introduce", method = RequestMethod.GET)
+       public String introduce(Locale locale, Model model) {
+           return "introduce";
+       }
+	   
+	   @RequestMapping(value = "/main", method = RequestMethod.GET)
+       public String main(Locale locale, Model model) {
+           return "main";
+       }
+	   
+	   @RequestMapping(value = "/header", method = RequestMethod.GET)
+       public String header(Locale locale, Model model) {
+           return "header";
+       }
 }

@@ -59,9 +59,9 @@
                     <td>
                         <div id="comment_user" class="debug">
                             <div id="commer_user_img" class="debug"></div>
-                            <div id="commer_user_name" class="debug"></div>
-                            <div id="commer_user_content" class="debug"> </div>
-                            <div id="commer_user_days" class="debug"></div>
+                            <div id="commer_user_name" class="debug">Park Jeong ho</div>
+                            <div id="commer_user_content" class="debug">빨리끝내여 </div>
+                            <div id="commer_user_days" class="debug">2015/9/9</div>
                         </div>
                     </td>
                 </tr>
