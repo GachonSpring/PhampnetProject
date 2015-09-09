@@ -126,9 +126,21 @@ hr {
 
 #leftBar_zIndex {
 	margin-top: -10px;
-	width: 100%;
-	height: 500px;
+	height: 400px;
 	background-color: white;
+	vertical-align: top;
+}
+
+#leftBarMenu {
+	background-color: white;
+	position: relative;
+	text-align: center;
+	margin-top: 0px;
+}
+
+#leftBarMenu img {
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 #leftBar_detail {
@@ -173,7 +185,12 @@ hr {
 				<div id="leftBar_zIndex">
 					<h3 id="zIndexTitle">Z-Index</h3>
 
-
+				</div>
+				<div id="leftBarMenu">
+					<img src="<spring:url value="/resources/images/makePamUp.png"/>" />
+					<img src="<spring:url value="/resources/images/makePamDown.png"/>" />
+					<img
+						src="<spring:url value="/resources/images/makePamDelete.png"/>" />
 				</div>
 
 				<div id="leftBar_detail">
