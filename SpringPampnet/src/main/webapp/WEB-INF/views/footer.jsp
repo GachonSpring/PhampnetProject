@@ -15,9 +15,9 @@
                         <h1>Meet Pamp.net</h1>
                         <div id="meet_content">
                                 <ul>
-                                        <li>About Pamp.net</li>
-                                        <li>Purpose</li>
-                                        <li>Creator</li>
+                                        <li><a  href="http://localhost:8080/spring/introduce#About_Pamp.net" target="_self">About Pamp.net</a></li>
+                                        <li><a  href="http://localhost:8080/spring/introduce#Purpose" target="_self">Purpose</a></li>
+                                        <li><a  href="http://localhost:8080/spring/introduce#Creator" target="_self">Creator</a></li>
                                 </ul>
                         </div>
                 </div>
@@ -26,9 +26,9 @@
                         <h1>Need Help?</h1>
                         <div id="help_content">
                            <ul>
-                                        <li>How to make</li>
-                                        <li>Delete & Modify</li>
-                                        <li>Distribute</li>
+                                        <li><a  href="http://localhost:8080/spring/guide" target="_self">How to make</a></li>
+                                        <li><a  href="http://localhost:8080/spring/guide" target="_self">Delete & Modify</a></li>
+                                        <li><a  href="http://localhost:8080/spring/guide" target="_self">Distribute</a></li>
                                 </ul>
                         </div>
                 </div>
@@ -38,9 +38,8 @@
                         <h1>Your Information</h1>
                         <div id="information_content">
                            <ul>
-                                        <li>Your Pamphlet</li>
-                                        <li>Make Pamphlet</li>
-                                        <li>Profile</li>
+                                        <li><a  href="http://localhost:8080/spring/myPam" target="_self">Your Pamphlet</a></li>
+                                        <li><a  href="http://localhost:8080/spring/makePam" target="_self">Make Pamphlet</a></li>
                                 </ul>
                         </div>
                 </div>

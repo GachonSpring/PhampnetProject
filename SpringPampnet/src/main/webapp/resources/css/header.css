@@ -5,7 +5,9 @@ html, body{
     height:100%;
     padding: 0;
     margin: 0;
+    overflow:scroll;
 }
+
 
 #header_wrapper{
     position: relative;
@@ -28,14 +30,15 @@ html, body{
 
 #account {
     margin-top:2%;
+    margin-right:2%;
     width:auto;
+    height:auto;
     float: right;
 }
 
 #account img{
-    height: 60%;
-    width: 60%;
     
+    width: 80%;
 }
 
 #signin{
@@ -59,7 +62,7 @@ html, body{
    top:80%;
    left: 30%;
    font-style: italic;
-   color: #c0c0c0;
+   
    
    
 }
@@ -69,8 +72,22 @@ html, body{
     display: inline;
 }
 
+#header_menu_nav ul a{
+       text-decoration: none;
+       color: #c0c0c0;
+       
+    
+}
+
+
+
 #header_menu_nav li{
     float: left;
     margin-left: 6%;
     font-size: x-large;
+ 
+}
+
+li:hover {
+  border-bottom: 2px solid #c0c0c0;
 }

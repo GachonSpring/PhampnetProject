@@ -7,6 +7,8 @@ html, body{
     margin: 0;
 }
 
+
+
 #main{
     position: relative;
     width: 100%;
@@ -47,6 +49,7 @@ html, body{
     height: auto;
     top:50%;
     left:5%;
+
 }
 
 #rank_right_move{
@@ -55,6 +58,7 @@ width: auto;
     height: auto;
     top: 50%;
     right: 5%;
+
 }
 
 #main_rank{
@@ -64,20 +68,11 @@ width: auto;
 
 }
 
-#main_rank_image{
-    position:absolute;
-    width: 30%;
-    height: 80%;
-    top: 10%;
-    left: 15%;
-    background-color: white;
-}
-
 #main_rank_info{
      position:absolute;
     width: 30%;
     height: 60%;
-    top: 20%;
+    top: 30%;
     right: 15%;
     font-style: italic;
 }

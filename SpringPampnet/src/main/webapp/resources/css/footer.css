@@ -20,6 +20,12 @@ ul{
     font-size: large;
 }
 
+li a{
+       text-decoration: none;
+       color: #c0c0c0;
+    
+}
+
 
 #footer_wrapper{
     position: relative;

@@ -22,17 +22,21 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
+	@RequestMapping(value = "/otherPamDetail", method = RequestMethod.GET)
+	public String otherPamDetailController(Locale locale, Model model) {
 		return "otherPamDetail";
 	}
-	@RequestMapping(value = "/make", method = RequestMethod.GET)
-	public String make(Locale locale, Model model) {
+	@RequestMapping(value = "/otherPamList", method = RequestMethod.GET)
+	public String otherPamListController(Locale locale, Model model) {
+	    return "otherPamList";
+	}
+	@RequestMapping(value = "/makePam", method = RequestMethod.GET)
+	public String makePamController(Locale locale, Model model) {
 		return "makePam";
 	}
 	
-	@RequestMapping(value = "/my", method = RequestMethod.GET)
-	public String my(Locale locale, Model model) {
+	@RequestMapping(value = "/myPam", method = RequestMethod.GET)
+	public String myPamController(Locale locale, Model model) {
 		return "myPam";
 	}
 	
@@ -42,22 +46,27 @@ public class HomeController {
 	    }
 	   
 	   @RequestMapping(value = "/guide", method = RequestMethod.GET)
-       public String guide(Locale locale, Model model) {
+       public String guideController(Locale locale, Model model) {
            return "guide";
        }
 	   
 	   @RequestMapping(value = "/introduce", method = RequestMethod.GET)
-       public String introduce(Locale locale, Model model) {
+       public String introduceController(Locale locale, Model model) {
            return "introduce";
        }
 	   
 	   @RequestMapping(value = "/main", method = RequestMethod.GET)
-       public String main(Locale locale, Model model) {
+       public String mainController(Locale locale, Model model) {
            return "main";
        }
 	   
 	   @RequestMapping(value = "/header", method = RequestMethod.GET)
        public String header(Locale locale, Model model) {
            return "header";
+       }
+	   
+	   @RequestMapping(value = "/test", method = RequestMethod.GET)
+       public String test(Locale locale, Model model) {
+           return "test";
        }
 }

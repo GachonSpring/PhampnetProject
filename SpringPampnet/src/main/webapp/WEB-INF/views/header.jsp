@@ -12,23 +12,23 @@
 <body>
         <div class="debug" id="header_wrapper" >
                 <div id="logo" class="debug">
-                        <img class="debug" src="<spring:url value="/resources/images/logo.png"/>"/>
+                        <a  href="http://localhost:8080/spring/main" target="_self"><img class="debug" src="<spring:url value="/resources/images/logo.png"/>"/></a>
                 </div>
         
                 <div class="debug" id="account" >
-                         <div  id = "signin">  <img src="<spring:url value="/resources/images/signin.png"/>"/></div>
+                         <div  id = "signin" class="debug">  <img src="<spring:url value="/resources/images/signin.png"/>"/></div>
                  
-                         <div id = "user"> <img  src="<spring:url value="/resources/images/user.png"/>"/></div>
+                         <div id = "user" class="debug"> <img  src="<spring:url value="/resources/images/user.png"/>"/></div>
              
 
                 </div>
                 
                 <div id="header_menu_nav" class="debug">
                         <ul>
-                                <li>Introduction</li>
-                                <li>User Guide</li>
-                                <li>Other User's</li>
-                                <li>My Pamphlet</li>
+                                <li> <a  href="http://localhost:8080/spring/introduce" target="_self">Introduction</a></li>
+                                <li> <a  href="http://localhost:8080/spring/guide" target="_self">User Guide</a></li>
+                                <li> <a  href="http://localhost:8080/spring/otherPamList" target="_self">Other User's</a></li>
+                                <li> <a  href="http://localhost:8080/spring/myPam" target="_self">My Pamphlet</a></li>
                                 
                         </ul>
                 </div>      

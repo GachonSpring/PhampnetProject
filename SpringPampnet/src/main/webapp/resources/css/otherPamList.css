@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+
+html, body{
+    width:100%;
+    height:100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+#list_wrapper{
+      width:100%;
+    height:100%;
+    background-color: #f2f2f2;
+}
+
+#category{
+    
+    width: 100%;
+    height: 20%;
+    background-color: #494949;
+    display:none;
+   
+}
+
+#list{
+        width: 100%;
+    height: 80%;   
+}
+
+#listTitle{
+    font-size: xx-large;
+    float: left;
+    width: 40%;
+    margin-left: 2%;
+        margin-top: 1%;
+}
+
+#showCatagory{
+    float: right;
+    width: 2.5%;
+    height: 5%;
+    margin-right: 2%;
+    margin-top: 1%;
+      background-color: #494949
+    
+}
+
+#list table{
+    margin: 2% 5% 2% 5%;
+    width: 90%;
+    height: 60%;
+    
+}
+
+td #content_wrapper{
+    position:relative;
+      margin: 2% 5% 2% 5%;
+      width: 90%;
+      height: 96%;
+}    
+
+
+#content_wrapper #content_img{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+}
+#content_wrapper div{
+    font-style: italic;
+    color: #353535;
+}
+
+#content_wrapper #content_title{
+        width: 50%;
+    height: 10%;
+    float: left;
+    margin-left: 1%;
+    margin-top:2%;
+    font-size: x-large;
+  
+ 
+}
+hr{
+    width: 95%;
+ background-color: #c0c0c0;
+}
+
+
+
+
+#content_wrapper #content_day{
+    position:absolute;
+           width: 20%;
+    height: 5%;
+    top: 90%;
+    left: 1%;
+}
+
+
+#content_wrapper #content_grade{
+    float: right;
+    height: auto;
+    width: auto;
+    margin-top: 2%;
+    margin-right: 2%;
+    
+    
+}
+
+
+
+}

@@ -5,7 +5,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link href="<c:url value="/resources/css/main.css" />" rel="stylesheet">
+
+<script src="<c:url value="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" />"></script>
+<script src="<c:url value="/resources/scripts/jquery.banner.js" />"></script>
+<script src="<c:url value="/resources/scripts/main.js" />"></script>
+
+<link href="<c:url value="/resources/css/slide.css "/>" rel="stylesheet">
+
+<link href="<c:url value="/resources/css/main.css "/>" rel="stylesheet">
+
+
+
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
@@ -16,9 +28,17 @@
         <div id="main" class="debug">  
                 <div id="main_rank_wrapper" class="debug">
                         <div id="rank_title" class="debug">Rank in the weekly</div>
-                        <div id="rank_left_move" class="debug">  <img class="debug" src="<spring:url value="/resources/images/leftArrow.png"/>"/></div>
+                        <div id="rank_left_move" class="btn">  <img class="debug" src="<spring:url value="/resources/images/leftArrow.png"/>"/></div>
                         <div id="main_rank" class="debug">
-                                <div id="main_rank_image" class="debug"></div>
+                            
+                                  <div class="clsBannerScreen">
+    <div class="images" style="display:block"><img class="debug" src="<spring:url value="/resources/images/image1.png"/>"/></div>
+    <div class="images"><img class="debug" src="<spring:url value="/resources/images/image2.png"/>"/></div>
+    <div class="images"><img class="debug" src="<spring:url value="/resources/images/image3.png"/>"/></div>
+    <div class="images"><img class="debug" src="<spring:url value="/resources/images/image4.png"/>"/></div>
+    <div class="images"><img src="/resources/images/image5.png" /></div>
+</div>
+                            
                                 <div id="main_rank_info" class="debug">
                                         <div id="rank_info_title" class="debug">Title</div>
                                         <div id="rank_info_maker" class="debug">made by who</div>
@@ -32,7 +52,7 @@
                                         </div>
                                 </div>                      
                         </div>      
-                         <div id="rank_right_move" class="debug"> <img class="debug" src="<spring:url value="/resources/images/rightArrow.png"/>"/></div> 
+                         <div id="rank_right_move" class="btn"> <img class="debug" src="<spring:url value="/resources/images/rightArrow.png"/>"/></div> 
                 </div>
                 <div id="main_content_wrapper" class="debug">
                         <table  class="debug">

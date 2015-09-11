@@ -23,17 +23,17 @@
                 About Pamph.net
                 <br>
                 <br>
-                        <div id="two_about_content" class="debug"> Pamph.net is free site</div>
+                        <div id="two_about_content" class="debug"><a name="About_Pamp.net"> Pamph.net is free site</a></div>
                 </div>
                 <div id="two_mission" class="debug">
                 Our Mission
                 <Br>
                 <Br>
-                        <div id="two_mission_content" class="debug">We're not one of those companies.    </div>
+                        <div id="two_mission_content" class="debug"><a name="Purpose">We're not one of those companies. </a>   </div>
                 </div>
             </div>
             <div id="introduce_three" class="debug">
-                    <center><span class="team" >Our Team</span></center>
+                    <center><span class="team" ><a name="Creator">Our Team</a></span></center>
                     <div id="member1" class="member">
                             <div id="member_photo" class="debug"></div>
                             <div id="member_profile" class="debug">
