@@ -1,177 +1,185 @@
 @CHARSET "UTF-8";
 
-html, body{
-    width:100%;
-    height:100%;
+.main *{
     padding: 0;
     margin: 0;
 }
 
-
+.main img{
+    max-width: 50%;
+    max-height: 50%;
+}
 
 #main{
     position: relative;
-    width: 100%;
-    height: 100%;
+    width:  800px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
-#header{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-}
 
-#footer{
+
+.main #main_rank_wrapper{
+    padding-top: 10px;
     position: relative;
     width: 100%;
-    height: 100%;
-}
-
-
-#main_rank_wrapper{
-    position: relative;
-    width: 100%;
-    height: 70%;
+    height: 300px;
     text-align: center;
-    background-color: #494949;
+    background-color: #8c979f;
+    font-family: 'Colonna MT';
     color: white;
 }
 
-#main_rank_wrapper  #rank_title
-{
-   font-size:xx-large;
-    font-style: italic;
+.main #rank_title{
+    margin-top: 10px;
+   font-size:18pt;
+   font-weight: bold;
 }
 
-#rank_left_move{
+.main #rank_left_move{
     position:absolute;
     width: auto;
     height: auto;
-    top:50%;
-    left:5%;
-
+    top:150px;
+    left:15px;
 }
 
-#rank_right_move{
+.main #rank_right_move{
     position:absolute;
 width: auto;
     height: auto;
-    top: 50%;
-    right: 5%;
-
+    top: 150px;
+    right: 15px;
 }
 
-#main_rank{
+.main #main_rank{
     position:relative;
     width: 100%;
     height: 90%;
 
 }
 
-#main_rank_info{
+.main #main_rank_image{
+    position:absolute;
+    width: 300px;
+    height: 187px;
+    top: 30px;
+    left: 80px;
+    background-color: white;
+}
+
+.main #main_rank_info{
      position:absolute;
-    width: 30%;
-    height: 60%;
-    top: 30%;
-    right: 15%;
-    font-style: italic;
+    width: 350px;
+    height: 200px;
+    top: 30px;
+    right: 80px;
+    padding-top: 10px;
 }
 
-#rank_info_title{
-    font-size: x-large;
+.main #rank_info_title{
+    font-size: 20pt;
+    font-weight: bold;
 }
 
-#rank_info_maker{
-    font-size: large;
+.main #rank_info_maker{
+    font-size: 16pt;
     text-align: right;
 }
 
-#rank_info_grade_wrapper{
+.main #rank_info_grade_wrapper{
     position:absolute;
     width: 100%;
-    height: 50%;
-    top:30%;
+    height: 60px;
+    top:90px;
 }
 
-#rank_info_grade_wrapper ul{
+.main #rank_info_grade_wrapper ul{
     list-style: none;
     display: inline;
     width: 100%;
     height: 100%;
 }
 
-#rank_info_grade_wrapper li{
+.main #rank_info_grade_wrapper li{
     margin-left: 8%;
     width:25%;
     height:50%;
     float: left;
+    font-size: 11pt;
 }
 
-#rank_info_grade_wrapper div{
+.main #rank_info_grade_wrapper img{
+    padding-top: 5px;
+}
+
+.main #rank_info_grade_wrapper div{
     width: auto;
     height: auto;
 }
 
-#main_content_wrapper{
+.main #main_content_wrapper{
     position:relative;
-    width: 100%;
-    height: 70%;
+    width: 800px;
     text-align: center;
     background-color: #e8e8e8;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
-#main_content_wrapper table{
+.main #main_content_wrapper table{
     position: relative;
-    width: 90%;
-    height: 70%;
-    margin: auto;
-    top: 5%;
+    width: 800px;
 }
 
 
-#main_content_wrapper #content{
+.main #content{
     position:relative;
-    width: 85%;
-    height: 100%;
-    padding: 5% 5% 5% 5% ;
+    width: 300px;
+    height: 230px;
+    margin: auto;
 }
 
-#content div{
+.main #content div{
     position: absolute;
-    font-style: italic;
 }
 
-#content_image{
-       
-    width: 90%;
-    height: 65%;
+.main #content_image{
+    width: 300px;
+    height: 187px;
     background-color: white;
 }
 
-#content_title{
-    width: auto;
-    height: auto;
-    top: 70%;
-    font-size: large;
-    
-    
+.main #content_title{
+    top: 190px;
+    left:15px;
+    font-size: 12pt;
     
 }
 
-#content_grade{
-    
-    width: auto;
-    height: auto;
-    top: 70%;
-    right: 5%;
-    
+.main #content_comments{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 2px;
+    top: 190px;
+    right: 0px;
+    width: 70px;
+    height:25px;
+    font-size: 8pt;
+    background-repeat: no-repeat;
+    background-size: 70px 25px;
+    background-image: url("../images/commentBack.png");
 }
 
-#content_day{
-     width: auto;
-    height: auto;
-    top: 80%;
-    font-size: medium;
+
+
+.main #content_day{
+    left:15px;
+    top: 205px;
+    font-size: 8pt;
     
     
 }

@@ -1,7 +1,7 @@
 $(function() {
 	$("#main_rank").jQBanner({	//롤링을 할 영역의 ID 값
-		nWidth:400,					//영역의 width
-		nHeight:300,				//영역의 height
+		nWidth:300,					//영역의 width
+		nHeight:187,				//영역의 height
 		nCount:5,					//돌아갈 이미지 개수
 		isActType:"left",				//움직일 방향 (left, right, up, down)
 		nOrderNo:1,					//초기 이미지

@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+
+.myPam * {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    vertical-align: middle;
+    font-family: 'Colonna MT';
+}
+
+.myPam hr {
+    border: 2px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.myPam img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+#myPamBack {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px; padding-top : 20px;
+    padding-bottom: 20px;
+    width: 800px;
+    background-color: #f2f2f2;
+    padding-top: 20px;
+}
+
+#myPamTitle h2 {
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #7f7f7f;
+}
+
+#createNewPam {
+    position: absolute;
+    display: inline-block;
+    text-align: right;
+    right: 15px;
+    top: 40px;
+}
+
+.myPams {
+    padding: 30px;
+    margin: 10px;
+    position: relative;
+    display: block;
+    text-align: right;
+    width: 700px;
+    height: 170px;
+}
+
+.myPamThumbnail {
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    left: 10px;
+    top: 20px;
+    background-color: white;
+}
+
+.myPamComment {
+    position: absolute;
+    display: inline;
+    font-size: 10pt;
+    padding-top: 5px;
+    text-align: center;
+    left: 270px;
+    top: 10px;
+    width: 66px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-image: url(' ../images/myPamComment.png ');
+    background-size: cover;
+}
+
+.myPamEdit {
+    position: absolute;
+    display: block;
+    right: 10px;
+}
+
+.myPamURLSpan {
+    position: absolute;
+    left: 330px;
+    top: 185px;
+}
+
+.myPamURLSpan img {
+    width: 21px;
+    height: 19px;
+}
+
+.myPamURL {
+    font-size: 9pt;
+}
+
+.myPamOptions {
+    position: absolute;
+    right: 20px;
+    top: 185px;
+}
+
+.myPamOptions img {
+    width: 19px;
+    height: 17px;
+}
+
+#pageNum {
+    margin-top: 50px;
+    background-color: red;
+    text-align: center;
+}
+
+.pageImg {
+    width: 56px;
+    height: 56px;
+}
+
+#pageLeft {
+    position: absolute;
+    bottom: 0px;
+    left: 250px;
+}
+
+#pageRight {
+    position: absolute;
+    bottom: 0px;
+    right: 250px;
+}

@@ -1,0 +1,161 @@
+@CHARSET "UTF-8";
+
+
+.makePam * {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    vertical-align: middle;
+    font-family: 'Colonna MT';
+}
+
+.makePam img{
+    width: 50%;
+    height: 50%;
+}
+
+
+hr {
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#zIndexTitle {
+    text-align:center;
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-left: -5px;
+    padding-top: 5px;
+    margin-bottom: 40px;
+}
+
+#makePamBack {
+    position:relative;
+    background-color: #f2f2f2;
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+#makePamTitle h2 {
+        display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #7f7f7f;
+}
+#closeButton {
+    position: absolute;
+    display: inline-block;
+    text-align: right;
+    top:20px;
+    right:40px;
+}
+
+
+
+#topBarSection {
+    width: 800px;
+}
+
+#topBarTitle {
+    width: 250px;
+    font-size:22pt;
+    margin-left: 35px;
+    color: black;
+    background-color: transparent;
+}
+
+#topBar_items {
+    display: inline-block;
+    width:480px;
+    margin-right:0px;
+    text-align: right;
+}
+
+.items{
+    display:inline-block;
+    position: relative;
+}
+.leftSectionItems{
+    display:inline-block;
+    position: relative;
+    width: 25%;
+    height: 25%;
+}
+
+#toopBar_tools,  #topBar_options{
+    background-color: white;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#topBar_options {
+margin-left: 100px;
+}
+
+#middle_section {
+    margin-top: 10px;
+    padding-bottom: 60px;
+}
+
+#leftBarSection {
+    float:left;
+    vertical-align: top;
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+
+#middleCanvas {
+    display: table-cell;
+    width: 580px;
+    height:490px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #e9e9e9
+}
+
+#middleCanvas canvas{
+    background-color: white;
+    width: 550px;
+    height: 350px;
+    
+}
+
+
+#leftBar_zIndex {
+    position: relative;
+    margin-top: -10px;
+    height: 300px;
+    background-color: white;
+    vertical-align: top;
+}
+
+#leftBarMenu {
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    bottom: 10px;
+    width: 100%;
+}
+
+#leftBarMenu_del{
+    margin-left: 5px;
+}
+
+#leftBar_detail {
+    position: relative;
+    height: 150px;
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 20px;
+}

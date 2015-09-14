@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+body {
+    width: 800px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:
+        url(' ../images/background.png');
+}

@@ -5,38 +5,54 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<link href="<c:url value="/resources/css/body.css" />" rel="stylesheet">
 <link href="<c:url value="/resources/css/introduce.css" />" rel="stylesheet">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-    <div id="introduce_wrapper" class="debug">
-            <div id="introduce_one" class="debug">
-            Come help us build the <br>
-            Pamph.net
-            <br>
-            <br>
-            <div id="join">Want to join us? See our <span>open position</span></div>
-            </div>
-            <div id="introduce_two" class="debug">
-                <div id="two_about" class="debug">
+
+        <div id="header">
+            <%@ include file="/WEB-INF/views/header.jsp" %>
+        </div>
+
+
+    <div id="introduce_wrapper"  class="introduce">
+            <h1> Create And Publish! </h1>
+            <div id="introduce_sub"  >
+                
+                <div id="introduce_sub_title" >
                 About Pamph.net
-                <br>
-                <br>
-                        <div id="two_about_content" class="debug"><a name="About_Pamp.net"> Pamph.net is free site</a></div>
+                        <div class="introduce_font2">Pamph.net is free site</div>
                 </div>
-                <div id="two_mission" class="debug">
+                
+                <div id="introduce_sub_title"  >
                 Our Mission
-                <Br>
-                <Br>
-                        <div id="two_mission_content" class="debug"><a name="Purpose">We're not one of those companies. </a>   </div>
+                        <div class="introduce_font2">We're not one of those companies.</div>
                 </div>
+                
             </div>
-            <div id="introduce_three" class="debug">
-                    <center><span class="team" ><a name="Creator">Our Team</a></span></center>
+            
+            <div id="introduce_member">
+            <h3>Our Member</h3>
+            <div class="member">
+            <div class="member_photo"></div>
+            <div class="member_name">A</div>
+            </div>
+                        <div class="member">
+            <div class="member_photo"></div>
+            <div class="member_name">B</div>
+            </div>
+            
+            </div>
+            
+            
+            <!-- 
+            <div id="introduce_three"  >
+                    <center><span class="team" >Our Team</span></center>
                     <div id="member1" class="member">
-                            <div id="member_photo" class="debug"></div>
-                            <div id="member_profile" class="debug">
+                            <div id="member_photo"  ></div>
+                            <div id="member_profile"  >
                                     <span class="name">Park Hyojun</span>
                             <br>
                             <br>
@@ -44,8 +60,8 @@
                            </div>
                     </div>
                     <div id="member2" class="member">
-                                <div id="member_photo" class="debug"></div>
-                            <div id="member_profile" class="debug">
+                                <div id="member_photo"  ></div>
+                            <div id="member_profile"  >
                                            <span class="name">Park Hyojun</span>
                             <br>
                             <br>
@@ -53,14 +69,20 @@
                             </div>
                     </div>
                         <div id="member3" class="member">
-                                <div id="member_photo" class="debug"></div>
-                            <div id="member_profile" class="debug"></div>
+                                <div id="member_photo"  ></div>
+                            <div id="member_profile"  ></div>
                         </div>
-                        
-            
-            
             </div>
+            
+            
+            
+            -->
     </div>
+
+
+        <div id="footer">
+          <%@ include file="/WEB-INF/views/footer.jsp" %>
+        </div>
 
 </body>
 </html>
