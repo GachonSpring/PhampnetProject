@@ -29,7 +29,7 @@ public class HomeController {
 	@RequestMapping(value = "/otherPamList", method = RequestMethod.GET)
 	public String otherPamListController(Locale locale, Model model) {
 	    return "otherPamList";
-	}
+	} 
 	@RequestMapping(value = "/makePam", method = RequestMethod.GET)
 	public String makePamController(Locale locale, Model model) {
 		return "makePam";
