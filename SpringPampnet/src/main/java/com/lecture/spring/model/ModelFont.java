@@ -3,17 +3,17 @@ package com.lecture.spring.model;
 
 public class ModelFont {
 
-    private int pamphletNo           ;
+    private int componentTBNO           ;
     private String font_family       ;
-    private int font_size              ;
+    private String font_size              ;
     private String font_style          ;
     private String font_weight       ;
     private String color               ;
     private String link              ;
-    public ModelFont(int pamphletNo, String font_family, int font_size,
+    public ModelFont(int componentTBNO, String font_family, String font_size,
             String font_style, String font_weight, String color, String link) {
         super();
-        this.pamphletNo = pamphletNo;
+        this.componentTBNO = componentTBNO;
         this.font_family = font_family;
         this.font_size = font_size;
         this.font_style = font_style;
@@ -24,11 +24,11 @@ public class ModelFont {
     public ModelFont() {
         super();
     }
-    public int getPamphletNo() {
-        return pamphletNo;
+    public int getComponentTBNO() {
+        return componentTBNO;
     }
-    public void setPamphletNo(int pamphletNo) {
-        this.pamphletNo = pamphletNo;
+    public void setComponentTBNO(int componentTBNO) {
+        this.componentTBNO = componentTBNO;
     }
     public String getFont_family() {
         return font_family;
@@ -36,10 +36,10 @@ public class ModelFont {
     public void setFont_family(String font_family) {
         this.font_family = font_family;
     }
-    public int getFont_size() {
+    public String getFont_size() {
         return font_size;
     }
-    public void setFont_size(int font_size) {
+    public void setFont_size(String font_size) {
         this.font_size = font_size;
     }
     public String getFont_style() {
@@ -68,11 +68,12 @@ public class ModelFont {
     }
     @Override
     public String toString() {
-        return "ModelFont [pamphletNo=" + pamphletNo + ", font_family="
+        return "ModelFont [componentTBNO=" + componentTBNO + ", font_family="
                 + font_family + ", font_size=" + font_size + ", font_style="
                 + font_style + ", font_weight=" + font_weight + ", color="
                 + color + ", link=" + link + "]";
     }
+    
     
     
 

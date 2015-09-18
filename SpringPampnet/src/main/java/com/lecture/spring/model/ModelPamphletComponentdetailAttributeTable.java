@@ -4,17 +4,18 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-public class ModelComponentKind {
+public class ModelPamphletComponentdetailAttributeTable {
     
     
     private int componentTBNO;
     private String table_name;
-    public ModelComponentKind(int componentTBNO, String table_name) {
+    
+    public ModelPamphletComponentdetailAttributeTable(int componentTBNO, String table_name) {
         super();
         this.componentTBNO = componentTBNO;
         this.table_name = table_name;
     }
-    public ModelComponentKind() {
+    public ModelPamphletComponentdetailAttributeTable() {
         super();
     }
     public int getComponentTBNO() {

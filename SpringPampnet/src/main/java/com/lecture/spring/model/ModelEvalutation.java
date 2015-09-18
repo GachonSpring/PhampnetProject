@@ -11,6 +11,8 @@ public class ModelEvalutation {
     private float design      ;
     private float creativity    ;
     private float content     ;
+    
+    
     public ModelEvalutation() {
         super();
     }

@@ -21,10 +21,19 @@
     </settings>
 
     <typeAliases>
-        <typeAlias type="com.lecture.spring.model.ModelBoard"      alias="ModelBoard"      />
-        <typeAlias type="com.lecture.spring.model.ModelAttachFile" alias="ModelAttachFile" />
+        <typeAlias type="com.lecture.spring.model.ModelCanvas"      alias="ModelCanvas"      />
+        <typeAlias type="com.lecture.spring.model.ModelCategory" alias="ModelCategory" />
         <typeAlias type="com.lecture.spring.model.ModelComment"    alias="ModelComment"    />
-        <typeAlias type="com.lecture.spring.model.ModelArticle"    alias="ModelArticle"    />        
+        <typeAlias type="com.lecture.spring.model.ModelPamphletComponentdetailAttributeTable"    alias="ModelPamphletComponentdetailAttributeTable"    />
+        <typeAlias type="com.lecture.spring.model.ModelEvalutation"      alias="ModelEvalutation"      />
+        <typeAlias type="com.lecture.spring.model.ModelFont" alias="ModelFont" />
+        <typeAlias type="com.lecture.spring.model.ModelImage"    alias="ModelImage"    />
+        <typeAlias type="com.lecture.spring.model.ModelPamphletComponentBasicAttribute"    alias="ModelPamphletComponentBasicAttribute"    />
+        <typeAlias type="com.lecture.spring.model.ModelPamphelt" alias="ModelPamphelt" />
+        <typeAlias type="com.lecture.spring.model.ModelPamphletBackground"    alias="ModelPamphletBackground"    />
+        <typeAlias type="com.lecture.spring.model.ModelVideo"    alias="ModelVideo"    />
+          
+                
     </typeAliases>
     
     <environments default="development">
@@ -36,9 +45,9 @@
                 <!-- <property name="driverClass" value="net.sf.log4jdbc.DriverSpy" /> -->
                 
                 <property name="driver"      value="com.mysql.jdbc.Driver" />
-                <property name="url"         value="jdbc:mysql://localhost:3306/springboard" />
-                <property name="username"    value="user01" />
-                <property name="password"    value="user01" />
+                <property name="url"         value="jdbc:mysql://localhost:3306/springphampnet" />
+                <property name="username"    value="root" />
+                <property name="password"    value="root" />
                 
                 <!-- <property name="driver"      value="${jdbc.driver}" />      -->
                 <!-- <property name="url"         value="${jdbc.url}" />         -->

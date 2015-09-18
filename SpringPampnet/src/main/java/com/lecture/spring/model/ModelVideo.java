@@ -6,24 +6,23 @@ import org.slf4j.LoggerFactory;
 
 public class ModelVideo {
   
-    private int privatepamphletNo   ;
+    private int componentTBNO   ;
     private String video_url        ;
     private char video_autoplay   ;
-    public ModelVideo(int privatepamphletNo, String video_url,
-            char video_autoplay) {
+    public ModelVideo(int componentTBNO, String video_url, char video_autoplay) {
         super();
-        this.privatepamphletNo = privatepamphletNo;
+        this.componentTBNO = componentTBNO;
         this.video_url = video_url;
         this.video_autoplay = video_autoplay;
     }
     public ModelVideo() {
         super();
     }
-    public int getPrivatepamphletNo() {
-        return privatepamphletNo;
+    public int getComponentTBNO() {
+        return componentTBNO;
     }
-    public void setPrivatepamphletNo(int privatepamphletNo) {
-        this.privatepamphletNo = privatepamphletNo;
+    public void setComponentTBNO(int componentTBNO) {
+        this.componentTBNO = componentTBNO;
     }
     public String getVideo_url() {
         return video_url;
@@ -39,10 +38,7 @@ public class ModelVideo {
     }
     @Override
     public String toString() {
-        return "ModelVideo [privatepamphletNo=" + privatepamphletNo
-                + ", video_url=" + video_url + ", video_autoplay="
-                + video_autoplay + "]";
+        return "ModelVideo [componentTBNO=" + componentTBNO + ", video_url="
+                + video_url + ", video_autoplay=" + video_autoplay + "]";
     }
-
-    
 }

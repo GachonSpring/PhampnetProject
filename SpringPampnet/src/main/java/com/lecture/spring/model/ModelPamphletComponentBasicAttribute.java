@@ -2,7 +2,7 @@ package com.lecture.spring.model;
 
 
 
-public class ModelPamComponent {
+public class ModelPamphletComponentBasicAttribute {
 
     private int componentTBNO             ;
     private int pamphletNo       ;
@@ -12,10 +12,11 @@ public class ModelPamComponent {
     private int height                    ;
     private int z_index                            ;
     private float angle                      ;
-    public ModelPamComponent() {
+    
+    public ModelPamphletComponentBasicAttribute() {
         super();
     }
-    public ModelPamComponent(int componentTBNO, int pamphletNo,
+    public ModelPamphletComponentBasicAttribute(int componentTBNO, int pamphletNo,
             int coordinates_x, int coordinates_y, int width, int height,
             int z_index, float angle) {
         super();
@@ -76,6 +77,7 @@ public class ModelPamComponent {
     public void setAngle(float angle) {
         this.angle = angle;
     }
+    
     @Override
     public String toString() {
         return "ModelPamComponent [componentTBNO=" + componentTBNO
